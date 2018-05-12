@@ -252,7 +252,6 @@ def get_batch(mode, batch_size):
     with tf.device('/cpu:0'):
         # Load data
         wav_files = load_data(mode=mode)
-
         target_wavs = sample(wav_files, batch_size)
 
         if mode in ('train1', 'test1'):
