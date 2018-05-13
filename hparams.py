@@ -65,7 +65,7 @@ class Train1:
 
 class Train2:
     # path
-    data_path = '{}/kate/sense_and_sensibility_split/*.wav'.format(data_path_base)
+    data_path = '{}/arctic/slt/*.wav'.format(data_path_base)
     # data_path = '{}/arctic/slt/*.wav'.format(data_path_base)
 
     # model
